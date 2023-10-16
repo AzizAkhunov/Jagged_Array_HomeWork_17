@@ -9,21 +9,19 @@
     {
 
     }*/
-    static void Main(string[] args)
-    {
-        int[][] jaggedArray = new int[2][];
-        jaggedArray[0] = new int[] { 31 };
-        jaggedArray[1] = new int[] { 28, 29 };
-        jaggedArray.Print();
-        Console.WriteLine();
-        jaggedArray.YangiExtention(1, 7);
-        jaggedArray.Print();
-        Console.WriteLine();
-        var jarr = jaggedArray.YangiExtention(12);
-        jarr.Print();
 
-    }
-}
+ int[][] jaggedArray = new int[2][];
+ jaggedArray[0] = new int[] { 31 };
+ jaggedArray[1] = new int[] { 28, 29 };
+ jaggedArray.Print();
+ Console.WriteLine();
+ jaggedArray.YangiExtention(1, 7);
+ jaggedArray.Print();
+ Console.WriteLine();
+ var jarr = jaggedArray.YangiExtention(12);
+ jarr.Print();
+
+
 
 public static class ExtenMethod
 {
@@ -53,3 +51,4 @@ public static class ExtenMethod
         }
 
     }
+}
